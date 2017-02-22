@@ -100,6 +100,7 @@ li {
 
 .main p {
 	margin: 20px;
+	line-height: 1.5;
 }
 
 /*connect with me aside*/
@@ -218,6 +219,7 @@ input {
 
 @media screen and (max-width: 980px) {
 
+
 	nav ul {
 		float: left;
 		margin-left: 180px;
@@ -232,8 +234,9 @@ input {
 		width: 250px;
 	}
 
-
-/*footer p placement? */
+	footer p {
+		margin-left: -80px;
+	}
 
 	/*index page*/
 	#profilepic {
@@ -254,8 +257,65 @@ input {
 		left: 50px;
 	}
 
+} /*end 980px*/
 
-}
+@media screen and (max-width: 768px) {
+	nav {
+		height: 50px;
+	}
+
+	#logo {
+		margin-left: 50px;
+		padding: 12px;
+		width: 150px;
+	}
+
+	#logo h1 {
+		font-size: 20px;
+	}
+
+	nav ul {
+		margin-left: 150px;
+	}
+	
+	.main {
+		width: 600px;
+	}
+
+	.connect {
+		clear: both;
+		width: 600px;
+		margin-left: 50px;
+		text-align: left;
+	}
+
+	.footer {
+		max-width: 768px;
+	}
+
+	/*index page*/
+	#profilepic {
+		margin: 20px;
+		float: left;
+	}
+
+	/*portfolio page*/
+	#portfoliocontainer img {
+		margin: 0;
+		float: left;		
+	}
+
+	.image h3 {
+		left: 0px;
+	}
+	
+} /*end of 768*/
+
+@media screen and (max-width: 640px) {
+
+	
+
+	} /*end of 640 width*/
 
 
 
