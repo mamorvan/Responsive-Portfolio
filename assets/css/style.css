@@ -42,6 +42,7 @@ nav {
 	background-color: #ffffff;
 	height: 70px;
 	border-bottom: 2px solid #cccccc;
+	width: 100%;
 }
 
 #logo {
@@ -133,6 +134,7 @@ footer {
 	padding: 20px;
 	text-align: center;
 	border-top: 5px solid #4aaaa5;
+
 	/*to make sticky footer*/
 	margin-top: -50px;
 	height: 50px;
@@ -170,7 +172,6 @@ input {
 	border-color: #cccccc;
 
 }
-
 
 #submitbutton {
 	width: 80px;
@@ -211,6 +212,49 @@ input {
 	font-size: 16px;
 	font-weight: normal;
 	padding: 10px;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 980px) {
+
+	nav ul {
+		float: left;
+		margin-left: 180px;
+	}
+
+	.main {
+		width: 400px;
+
+	}
+
+	.connect {
+		width: 250px;
+	}
+
+
+/*footer p placement? */
+
+	/*index page*/
+	#profilepic {
+		margin: 20px 80px;
+	}
+
+	#about p {
+		clear: both;
+	}
+
+	/*portfolio page*/
+	#portfolio img {
+		clear: both;
+		margin: 10px 50px;
+	}
+
+	.image h3 {
+		left: 50px;
+	}
+
+
 }
 
 
